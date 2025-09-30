@@ -1,6 +1,14 @@
 @use "../libs/pxtorem.scss" as *;
 @use "../base/vars.scss" as *;
 
+body {
+    background-color: $colorBG;
+    font-size: $fontSize;
+    font-family: $fontFamily;
+    color: $colorLight;
+    font-weight: normal;
+}
+
 .wrapper {
     min-height: 100%;
     display: flex;
@@ -15,7 +23,7 @@
 }
 
 [class*="__container"] {
-	max-width: clamp(rem(320), calc(100vw - 2rem), rem(1234));
+	max-width: clamp(rem(320), calc(100vw - 2rem), rem(1220));
 	margin: 0 auto;
 	padding: 0 clamp(rem(15), 2vw, rem(30));
 	width: 100%;

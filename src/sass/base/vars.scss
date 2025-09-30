@@ -1,11 +1,14 @@
 @use "../libs/pxtorem.scss" as *;
 
 // Font
-$fontFamily: "";
-$fontSize: rem(16);
+$fontFamily: "SF Pro Display", sans-serif;
+$fontSize: rem(20);
 
 // Colors
-$mainColor: #000;
+$colorBG: #141414;
+$colorLight: #EEE7E7;
+$colorGrey: #646464;
+$colorMain: #BB421B;
 
 // Breakpoints
 $laptopL: rem(1439.98);
