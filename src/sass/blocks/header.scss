@@ -1,0 +1,17 @@
+@use "../base/vars.scss" as *;
+@use "../libs/pxtorem.scss" as *;
+
+.header {
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: rem(40) 0;
+    }
+}
+
+canvas {
+    width: rem(50);
+    height: rem(50);
+    cursor: pointer;
+}
