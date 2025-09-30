@@ -1,8 +1,8 @@
 {
-  "name": "cool_project",
+  "name": "togo-landing",
   "version": "1.0.0",
   "type": "module",
-  "description": "Start template using Vite",
+  "description": "Landing Page about Togo, Siberian Husky Sled Dog Hero of 1925 Nome Serum Run",
   "main": "vite.config.js",
   "scripts": {
     "lint": "eslint .",

@@ -20,7 +20,7 @@ export default defineConfig({
 						break;
 					// different cases (pages) below
 					default:
-						pageTitle = "Page name";
+						pageTitle = "TOGO - The Unsung Hero";
 						pageScript = "script.js"; // default script
 				}
 				return { pageTitle, pageScript };
